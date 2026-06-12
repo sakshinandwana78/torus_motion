@@ -20,7 +20,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 20);
+        const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -53,7 +53,7 @@ export default function Navbar() {
            
 
 <Image
-  src="/images/logo.png"
+  src="/images/B612_20260612_202517_732 (1).png"
   alt="logo"
   width={110}
   height={40}
